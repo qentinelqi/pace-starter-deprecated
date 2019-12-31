@@ -1,0 +1,12 @@
+.DS_Store
+*.pyc
+*~
+
+/output/
+geckodriver.log
+debug*.*
+log.html
+output.xml
+report.html
+.idea/
+.vscode/
