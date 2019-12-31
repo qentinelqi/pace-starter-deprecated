@@ -1,5 +1,6 @@
 *** Settings ***
-Documentation     UI element locators for starter_repo.
+Documentation     UI element locators for Pace Starter.
 
 *** Variables ***
-${APP_TITLE}      Qentinel
+${HOME}          https://qentinel.com
+${CONTACT}       https://qentinel.com/contact
