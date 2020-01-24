@@ -12,11 +12,20 @@ Suite Teardown      End Suite
 
 
 *** Test Cases ***
-Home page
-    [Documentation]     Locates 'Qentinel Oy' on the home page.
+Test the global home page
+    [Documentation]     Accepts the cookie policy, changes the location to 'Global' and verifies home page text.
     [Tags]              Home
     Appstate            home
-    VerifyText          Qentinel Oy
+    ClickText           Accept
+    ClickText           Change location
+    ClickText           Global
+    VerifyText          Robotic software testing. Qentinel Pace
+
+Check for text on the Finnish home page
+    [Documentation]     Locates 'Liiketoimintasi pyörii ohjelmistojen varassa' on the Finnish home page.
+    [Tags]              Home
+    Appstate            home
+    VerifyText          Liiketoimintasi pyörii ohjelmistojen varassa
 
 Contact page
     [Documentation]     Locates 'We’re driven by quality' on the contact page.
