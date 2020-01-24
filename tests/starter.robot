@@ -25,6 +25,8 @@ Check for text on the Finnish home page
     [Documentation]     Locates 'Liiketoimintasi pyörii ohjelmistojen varassa' on the Finnish home page.
     [Tags]              Home
     Appstate            home
+    ClickText           Change location
+    ClickText           Finland
     VerifyText          Liiketoimintasi pyörii ohjelmistojen varassa
 
 Contact page
