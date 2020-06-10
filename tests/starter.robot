@@ -19,7 +19,7 @@ Test the global home page
     ClickText           Accept
     ClickText           Change location
     ClickText           Global
-    VerifyText          Robotic software testing. Qentinel Pace
+    VerifyText          Automate Software Testing with Qentinel Pace
 
 Check for text on the Finnish home page
     [Documentation]     Locates 'Liiketoimintasi pyörii ohjelmistojen varassa' on the Finnish home page.
