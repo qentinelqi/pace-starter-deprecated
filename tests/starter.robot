@@ -6,10 +6,7 @@ Suite Setup         Start Suite
 Suite Teardown      End Suite
 
 *** Variables ***
-
-# run tests locally with:
-# robot -d output -L DEBUG -b debug.txt tests/starter.robot
-
+# Add varialbe here (optional).
 
 *** Test Cases ***
 Test the global home page
