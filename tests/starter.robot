@@ -6,7 +6,7 @@ Suite Setup         Start Suite
 Suite Teardown      End Suite
 
 *** Variables ***
-# Add varialbe here (optional).
+# Add variables here (optional).
 
 *** Test Cases ***
 Test the global home page
