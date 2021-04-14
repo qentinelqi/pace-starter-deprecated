@@ -1,3 +1,3 @@
-# Pace Starter Repository
+# DEPRECATED: Pace Starter Repository
 
-A starter repository for using Pace.
+Please use: https://github.com/qentinelqi/pace-starter
